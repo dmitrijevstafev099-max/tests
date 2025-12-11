@@ -15,8 +15,8 @@ class CircleleTestCase(unittest.TestCase):
         self.assertEqual(res, 0)
 
     def test_square_mul(self):
-        res = area(11)
-        self.assertEqual(res, 11*11*pi)
+        res = area(10)
+        self.assertEqual(res, 10*10*pi)
     
     def test_perimeter_mul(self):
         res = perimeter(0)
